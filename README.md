@@ -48,7 +48,7 @@ library(PITPID)
 
 ## @ Showcase
 
-> A showcase describing step-by-step instructions on how to create priority indexes for critical Covid-19 is are made available [`here`](http://www.genetictargets.pro/PIC2/showcase).
+> A showcase, describing step-by-step instructions on how to create priority indexes for critical Covid-19, is made available [`here`](http://www.genetictargets.pro/PIC2/showcase).
 
 
 ## @ Contact
