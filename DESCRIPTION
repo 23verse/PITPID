@@ -2,12 +2,12 @@ Package: PITPID
 Type: Package
 Title: Priority indexes for targets and drugs
 Version: 1.0.0
-Date: 2022-10-25
+Date: 2022-10-31
 Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
 Maintainer: Hai Fang <fh12355@rjh.com.cn>
 Depends: R (>= 4.2.0), igraph, ggplot2
-Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply, curl
-Suggests: coin, foreach, ggraph, ggridges, grid, gridExtra, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
+Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply, curl, ggraph
+Suggests: coin, foreach, ggridges, grid, gridExtra, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
 Description: In parallels with a shift from genetic findings to translational applications, the PITPID package is developed as a genetically powered drug-target discovery engine, featuring a genetics-led target prioritisation (an approach PIT generating the target index) and a crosstalk-based drug repurposing strategy (an approach PID generating the drug index).
 Collate:
     'ClassMethod-PITPID.r'
@@ -74,5 +74,6 @@ Collate:
     'oSEAupset.r'
     'oRepurpose.r'
     'oSEAladder.r'
+    'oHEB.r'
 License: GPL-2
 biocViews: SystemsBiology, FunctionalGenomics, GenePrediction, GeneTarget, Pathways, Network
