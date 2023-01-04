@@ -23,9 +23,6 @@
 #' @include oSEAladder.r
 #' @examples
 #' \dontrun{
-#' # Load the XGR package and specify the location of built-in data
-#' library(XGR)
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata/"
 #'
 #' data(Haploid_regulators)
 #' ## only IRF1 positive regulators

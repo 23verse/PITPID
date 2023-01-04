@@ -344,7 +344,7 @@ oPierSNPs <- function(data, include.LD=NA, LD.customised=NULL, LD.r2=0.8, signif
     	cGenes <- NULL
     }else{
 		cGenes <- oDefineRGB(data=df_SNP$SNP, entity="SNP", include.RGB=include.RGB, GR.SNP=GR.SNP, verbose=FALSE, placeholder=placeholder, guid=guid)
-		cGenes <- cGenes$df
+		#cGenes <- cGenes$df
 		ind <- match(cGenes$SNP, df_SNP$SNP)
 		cGenes$SNP_Flag <- df_SNP$Flag[ind]
     }

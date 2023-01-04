@@ -2,7 +2,7 @@
 
 ## @ Overview
 
-> The [PITPID](http://www.genetictargets.pro/PITPID) is an R package enabling the creation of priority indexes for targets and drugs.
+> The `PITPID` is an R package enabling the generation of dual indexes for targets and drugs.
 
 
 ## @ Installation
@@ -48,7 +48,7 @@ library(PITPID)
 
 ## @ Showcase
 
-> A showcase, describing step-by-step instructions on how to create priority indexes for critical Covid-19, is made available [`here`](http://www.genetictargets.pro/PIC2/showcase).
+> A showcase, describing a step-by-step protocol on how to generate the target index and the drug index for critical Covid-19, is made reproducible [`here`](http://www.genetictargets.pro/PIC2/showcase).
 
 
 ## @ Contact
